@@ -1,0 +1,223 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anmol.rajhack.homeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d2caca">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="150dp"
+                android:id="@+id/imv1"
+
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:background="@drawable/newk"
+                android:src="@drawable/logo" />
+
+
+
+
+
+            <android.support.v4.view.ViewPager
+
+                android:id="@+id/viewPageAndroid1"
+                android:layout_below="@id/imv1"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="150dp" />
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/viewPageAndroid1"
+                android:layout_alignTop="@id/viewPageAndroid1"
+                android:layout_alignRight="@id/viewPageAndroid1"
+                android:layout_alignBottom="@id/viewPageAndroid1"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:elevation="4dp"
+                android:text="Padharo mhaare desh"
+                android:textColor="#ffffff" />
+
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="150dp"
+                android:background="@drawable/newk"
+                android:id="@+id/imv3"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+
+                android:src="@drawable/rj1"
+               />
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/imv3"
+                android:layout_alignTop="@id/imv3"
+                android:layout_alignRight="@id/imv3"
+                android:layout_alignBottom="@id/imv3"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Padharo mhaare desh"
+                android:textColor="#dc6f16" />
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="150dp"
+                android:id="@+id/imv4"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+
+                android:background="@drawable/newk"
+                android:src="@drawable/mountabu"
+                android:layout_below="@+id/viewPageAndroid1"/>
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/imv4"
+                android:layout_alignTop="@id/imv4"
+                android:layout_alignRight="@id/imv4"
+                android:layout_alignBottom="@id/imv4"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Padharo mhaare desh"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imv4"
+                android:id="@+id/txt5"
+                android:layout_marginTop="7dp"
+                android:text="Explore Our State"
+                android:textColor="#ffffff"
+                android:background="@android:color/holo_green_light"
+                android:textSize="21sp"
+                android:textAlignment="center"/>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gridLayout1"
+                android:layout_below="@+id/txt5">
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/jaipur1"
+                    android:id="@+id/b1"
+                    android:textSize="25sp"
+                    android:onClick="click"
+                    android:layout_margin="5dp"
+                    android:text="Jaipur"
+                    android:textColor="#ffffff"
+                    android:gravity="top|center"
+                    />
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/jaipur2"
+                    android:layout_margin="5dp"
+                    android:id="@+id/b2"
+                    android:textSize="25sp"
+                    android:onClick="click"
+                    android:text="Jodhpur"
+                    android:textColor="#ffffff"
+                    android:gravity="top|center"
+
+                    />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gridLayout2"
+                android:layout_below="@+id/gridLayout1">
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/jodhpur"
+                    android:id="@+id/b3"
+                    android:textSize="25sp"
+                    android:onClick="click"
+                    android:layout_margin="5dp"
+                    android:text="Udaipur"
+                    android:textColor="#ffffff"
+                    android:gravity="top|center"
+                    />
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/mountabu"
+                    android:layout_margin="5dp"
+                    android:id="@+id/b4"
+                    android:textSize="25sp"
+                    android:onClick="click"
+                    android:text="Chittorgarh"
+                    android:textColor="#ffffff"
+                    android:gravity="top|center"
+
+                    />
+
+            </GridLayout>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gridLayout3"
+                android:layout_below="@+id/gridLayout2">
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/pic1"
+                    android:id="@+id/b5"
+                    android:textSize="25sp"
+                    android:onClick="click"
+                    android:layout_margin="5dp"
+                    android:text="Alwar"
+                    android:textColor="#ffffff"
+                    android:gravity="top|center"
+                    />
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/pic2"
+                    android:layout_margin="5dp"
+                    android:id="@+id/b6"
+                    android:textSize="25sp"
+                    android:onClick="click"
+                    android:text="Ajmer"
+                    android:textColor="#ffffff"
+                    android:gravity="top|center"
+
+                    />
+
+            </GridLayout>
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

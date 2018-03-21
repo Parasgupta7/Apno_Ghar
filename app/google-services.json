@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "161773983924",
+    "firebase_url": "https://rajhack-92913.firebaseio.com",
+    "project_id": "rajhack-92913",
+    "storage_bucket": "rajhack-92913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161773983924:android:b91f50a738ecd2c9",
+        "android_client_info": {
+          "package_name": "com.anmol.rajhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161773983924-t91ej9cbdi3ueq4jklqiagsfktnset8r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anmol.rajhack",
+            "certificate_hash": "31351b13e7ab2b210865f61de375b17be5a22797"
+          }
+        },
+        {
+          "client_id": "161773983924-vv9312ed4ld0j8qh4fjabtrcg3oa3dlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anmol.rajhack",
+            "certificate_hash": "954d89aba084257942273aa0caaa884cf0f91c87"
+          }
+        },
+        {
+          "client_id": "161773983924-snkehqstbbbkp8mgripsbm6saeruk885.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnc9QyfwiUManyj9589FaaJIBLDc0yqXw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161773983924-snkehqstbbbkp8mgripsbm6saeruk885.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161773983924:android:49e1c122ddee69b0",
+        "android_client_info": {
+          "package_name": "com.example.paras.rajhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161773983924-86vqduo754r937i4imp33ln5peudf0uu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.paras.rajhack",
+            "certificate_hash": "954d89aba084257942273aa0caaa884cf0f91c87"
+          }
+        },
+        {
+          "client_id": "161773983924-snkehqstbbbkp8mgripsbm6saeruk885.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnc9QyfwiUManyj9589FaaJIBLDc0yqXw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161773983924-snkehqstbbbkp8mgripsbm6saeruk885.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
